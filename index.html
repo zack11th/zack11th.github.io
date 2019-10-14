@@ -107,11 +107,13 @@
           <form class="form" action="#">
             <div class="input">
               <label class="label-text">ФИО</label>
-              <input class="user-input" type="text" name="userName" required>
+              <input class="user-input" type="text" name="userName">
+              <div class="error-name">Введите ФИО</div>
             </div>
             <div class="input">
               <label class="label-text">Телефон</label>
-              <input class="user-input" type="text" name="userName" required>
+              <input class="user-input" type="tel" name="userPhonee">
+              <div class="error-phone">Введите корректный номер телефона</div>
             </div>
             <div class="action">
               <button class="btn" type="submit">Отправить</button><span class="policy">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой конфиденциальности</a></span>
