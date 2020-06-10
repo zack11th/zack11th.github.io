@@ -1,4 +1,4 @@
-# zack11th.github.io
+# Oilchemist
 
 # 
 This is a prototype of a game similar to classic alchemy.
